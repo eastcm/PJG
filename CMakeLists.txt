@@ -8,4 +8,3 @@ include_directories(${SDL2_INCLUDE_DIRS})
 add_executable(PJG src/main.cpp)
 
 target_link_libraries(PJG ${SDL2_LIBRARIES})
-
